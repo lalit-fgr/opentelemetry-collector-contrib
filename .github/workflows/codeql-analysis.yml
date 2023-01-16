@@ -41,4 +41,7 @@ jobs:
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v2
         timeout-minutes: 60
+      - name: Check with osv-detector
+        uses: G-Rath/check-with-osv-detector@v0.2.0
+
 
